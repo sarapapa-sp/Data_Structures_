@@ -12,7 +12,7 @@
  #include <iostream>
  using namespace std;
  
- 
+ //
  class Node{
  public:
 	int k; //stores the value
