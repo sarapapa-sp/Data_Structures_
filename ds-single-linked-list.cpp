@@ -9,12 +9,6 @@
  * 
  * */
 
-//
-// Created by sarapapa on 8/14/2021.
-//
-//Labwork 2
-
-
 #include <iostream>
 using namespace std;
 //defining the class with the pointer
