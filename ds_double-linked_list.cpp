@@ -36,7 +36,7 @@
  
  //main()
  int main(){
-	cout<<"Circular Linked List";
+	cout<<"Double Linked List";
     int flag=1,input;
 
     while (flag==1){
