@@ -1,7 +1,3 @@
-
-// Sorting 1
-// Insertion sort
-// Sorting an array using insertion sort
 /*
  * @author- sarapapa
  * Date -
