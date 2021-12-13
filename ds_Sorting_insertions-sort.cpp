@@ -28,6 +28,13 @@ int main(){
     }
     //Passing the array to function {insertion_sort} to sort the array
     insertion_sort(sort,total);
+
+    // to display the sorted array
+    cout<<"\nSorted Array is : \n";
+    for(int i=0;i<total;i++){
+        cout<<sort[i]<<" ";
+    }
+    cout<<"\n";
     return 0;
 }
 
@@ -45,11 +52,4 @@ void insertion_sort(int sort[],int total){
         }
         sort[sublist+1] = temp;
     }
-
-    // to display the sorted array
-    cout<<"\nSorted Array is : \n";
-    for(int i=0;i<total;i++){
-        cout<<sort[i]<<" ";
-    }
-    cout<<"\n";
 }
