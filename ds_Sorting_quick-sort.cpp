@@ -12,7 +12,7 @@
 #include <iostream>
 using namespace std;
 
-void quick_sort(int sort[],int low,int high);
+void quick_sort(int sort[],int low,int high);    // main function to perfrom quick sort on array
 int partition (int arr[], int low, int high);    // to find center element
 void swap(int* a, int* b)                        // swap the elements
 {
@@ -50,7 +50,7 @@ int main(){
 int partition (int arr[], int low, int high)
 {
     int pivot = arr[high]; // taking last element as the pivot element
-    int i = (low - 1); // Index of smaller element and indicates the right position of pivot found so far
+    int i = (low - 1);     // Index of smaller element and indicates the right position of pivot found so far
 
     for (int j = low; j <= high - 1; j++)
     {
