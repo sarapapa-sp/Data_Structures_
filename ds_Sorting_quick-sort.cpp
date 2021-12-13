@@ -49,7 +49,7 @@ int main(){
 
 int partition (int arr[], int low, int high)
 {
-    int pivot = arr[high]; // pivot
+    int pivot = arr[high]; // taking last element as the pivot element
     int i = (low - 1); // Index of smaller element and indicates the right position of pivot found so far
 
     for (int j = low; j <= high - 1; j++)
